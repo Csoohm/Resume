@@ -2,7 +2,6 @@
   border-radius: 50%;
   width: 15%;
   margin: 30px;
-  
 }
 
 .navb{
@@ -122,6 +121,8 @@ a{
   transform: scale(1)
 }
 .fade-in-text {
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke: 1.3px rgb(67, 74, 177);
   font-family: 'Open Sans', sans-serif;
   animation: fadeIn 5s;
   font-size: 50px;
