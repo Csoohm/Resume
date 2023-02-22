@@ -4,10 +4,10 @@
 <head>
   <meta charset="utf-8">
   <title>Chalermpol Sutsanam's Resume</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="CSS/Styles.css">
   <!-- <link rel="stylesheet" href="Bacon.css"> -->
 
@@ -18,8 +18,8 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
     <div class="container-fluid" id = "home">
   
-      <a class="navbar-brand" href="#">
-        <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24">
+      <a class="navbar-brand bartext" href="index.html">
+        <img src="images\OHMLOGO.jpg " alt="Bootstrap" width="100" height="80">
         Chalermpol Sutsanam
       </a>
     
@@ -28,21 +28,21 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="">Home</a>
+          <li class="nav-item ">
+            <a class="nav-link bartext" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#"></a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle bartext" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               About Me 
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#Education">Education</a></li><hr>
-              <li><a class="dropdown-item" href="#Employment_History">Employment History</a></li><hr>      
-              <li><a class="dropdown-item" href="#Skills">Skill</a></li><hr>
-              <li><a class="dropdown-item" href="Contact.html">Contact</a></li>
+              <li><a class="dropdown-item " href="#Education">Education</a></li><hr>
+              <li><a class="dropdown-item " href="#Employment_History">Employment History</a></li><hr>      
+              <li><a class="dropdown-item " href="#Skills">Skill</a></li><hr>
+              <li><a class="dropdown-item " href="#contact">Contact</a></li>
             </ul>
           </li>
         </ul>
@@ -52,14 +52,17 @@
 
   <img class = "ohm" width="10%" src="images\profile_img.jpg" alt="">
   <div class="me">
-  <h1>เฉลิมพล สุดสนาม</h1>
-  <P><strong>เฉลิมพล สุดสนาม</strong> นักศึกษา สาขาวิชา เทคโนโลยีและสารสนเทศ (DIT) <em><a href="https://www.pim.ac.th/faculty/bachelor/">สถาบันการจัดการปัญญาภิวัฒน์ 
+  <h1 class="fade-in-text">Chalermpol Sutsanam</h1>
+  <div class ="fade-right">
+  <P>I am a student of Digital Information Technology (DIT) major at Panyapiwat Institude of Management. <em><a href="https://www.pim.ac.th/faculty/bachelor/">Panyapiwat Institude of Management.
         (PIM)</a></em></P>
-  <P> ชื่อเล่นชื่อโอม ชอบการเขียนโปรแกรม โดยเฉพาะพัฒนาเว็บไซต์ เวลาว่าง ชอบถ่ายรูปที่บ้านเลี้ยงหมา</P>
+  <P>My nickname is ohm. I interested in website development</P>
+</div>
   <hr>
-  <div class="Education">
-<h3>Education</h3>
+
+
   <div class="Education" id ="Education">
+    <h3>Education</h3>
     <table>
       <thead>
         <tr>
@@ -116,8 +119,9 @@
     </tr>
   </table>
 
-  <hr>
+ 
 </div>
+<hr>
   
   <div class="Skills" id = "Skills">
   <h3>Skills</h3>
@@ -157,10 +161,18 @@
       </td>
     </tr>
   </table>
-  <hr>
-</div>
 
-<a href="#home" class="btn btn-dark" role="button" style="margin-left: 30px;">Top</a>
 </div>
+<hr>
+</div>
+<div class="contact" id="contact">
+  <h1 class ="ct">Contact Me</h1>
+  <li>Email : 6352100392@stu.pim.ac.th</li>
+  <li>Phone Number : +66 70-XXX5786</li>
+  <li>Address : thailand Nonthaburi 555 </li>
+  </div>
+
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </html>

@@ -1,71 +1,59 @@
 .ohm{
-  
   border-radius: 50%;
   width: 15%;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  display: block;
-  justify-content: center;
-  align-items: center;
+  margin: 30px;
+  
+}
 
-  position: relative;
-  left: 50px;
+.navb{
+  height: 100px;
 }
 
 body {
-  Background-color: #b2e7f1;
-  
+  background-color: snow;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.4rem;
+}
+
+.Education {
+  text-align: center;
+  display: inline-block;
+  transform: scale(0.95);
+}
+.Employment_History{
+  text-align: center;
+  display: inline-block;
+  transform: scale(0.95);
+}
+.Skills{
+  text-align: center;
+  display: inline-block;
+  transform: scale(0.95);
 }
 
 hr {
   border-color: rgb(2, 31, 53);
-  border-width: 5px;
+  border-width: 2px;
   border-style: dotted none none;
   opacity: 50%;
-  /* height: 10px; */
-  width: 50%;
+  width: 70%;
+  margin: auto;
+
 }
 h1,h3{
-color:#0e1f3a;
+  margin: 25px;
+  color:#0e1f3a;
+}
+table{
+  margin: 30px;
 }
 
 .dropdown-menu hr {
   border-top: 1px solid #06143d;
   width: 100%;
 }
-.navbar-expand-lg navbar-dark bg-dark{
-  width: 100%;
-  
-}
-.container-fluid{
-  font-family: 'Kanit', sans-serif;
-  text-align: center;
-}
-.me{
-  margin-left: 20px;
-}
-.Education{
-  margin-bottom: 25px;
-}
-.Employment_History{
-  margin-bottom: 25px;
-}
-.Skills{
-  margin-bottom: 25px;
-}
-/* Contact */
-.content{
-  background-color: #0e1f3a;
-  color: white;
-  border-radius: 24px;
-  margin-top: 50px;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 40px;
-  text-align: center;
-  padding: 100px;
-  font-size: 20px;
-}
+
 .content h1{
   color: white;
   padding-bottom: 20px;
@@ -74,4 +62,96 @@ color:#0e1f3a;
   display: flex ;
   align-items: center;
   justify-content: center;
+}
+.bartext{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 100;
+}
+.dropdown-menu {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 1.4rem;
+}
+.dropdown-item{
+  color: #06143d;
+}
+.dropdown-item:hover{
+ color: rgb(46, 4, 255);
+}
+
+.nav-link{
+  color: white;
+}
+
+.bartext:hover{
+  color: rgb(96, 255, 255);
+}
+.contact{
+  margin: 20px;
+  padding: 50px; 
+  background-color: snow;
+  display: inline-block;
+  border-radius: 2%;
+  transform: scale(0.8);
+  
+}
+.contact li{
+  color: black;
+}
+.ct{
+  color: black;
+}
+a{
+  text-decoration: none;
+}
+.contact:hover{
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+  transform: scale(1);
+}
+.Education:hover{
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transform: scale(1)
+}
+.Employment_History:hover{
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+  transform: scale(1)
+}
+.Skills:hover{
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+  transform: scale(1)
+}
+.fade-in-text {
+  font-family: 'Open Sans', sans-serif;
+  animation: fadeIn 5s;
+  font-size: 50px;
+  animation: fadeInLeft 5s;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadeInLeft {
+  0% {
+     opacity: 0;
+     transform: translateX(-20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateX(0);
+  }
+}
+.fade-right{
+  animation: faderight 5s;
+
+}
+@keyframes faderight {
+  0% {
+     opacity: 0;
+     transform: translateX(20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateX(0);
+  }
 }
