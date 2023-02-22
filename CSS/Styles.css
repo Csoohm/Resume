@@ -122,7 +122,7 @@ a{
 }
 .fade-in-text {
   color: rgb(0, 0, 0);
-  -webkit-text-stroke: 1.3px rgb(67, 74, 177);
+  -webkit-text-stroke: 1.3px rgb(29, 137, 244);
   font-family: 'Open Sans', sans-serif;
   animation: fadeIn 5s;
   font-size: 50px;
